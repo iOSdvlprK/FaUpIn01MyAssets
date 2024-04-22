@@ -11,6 +11,7 @@
 		D8B59C742BD5562900A95284 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B59C732BD5562900A95284 /* ContentView.swift */; };
 		D8B59C762BD5562C00A95284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B59C752BD5562C00A95284 /* Assets.xcassets */; };
 		D8B59C792BD5562C00A95284 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B59C782BD5562C00A95284 /* Preview Assets.xcassets */; };
+		D8DB48152BD69E0800A5D9E4 /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB48142BD69E0800A5D9E4 /* NavigationBarWithButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D8B59C732BD5562900A95284 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8B59C752BD5562C00A95284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B59C782BD5562C00A95284 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8DB48142BD69E0800A5D9E4 /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				D8B59C732BD5562900A95284 /* ContentView.swift */,
 				D8B59C752BD5562C00A95284 /* Assets.xcassets */,
 				D8B59C772BD5562C00A95284 /* Preview Content */,
+				D8DB48142BD69E0800A5D9E4 /* NavigationBarWithButton.swift */,
 			);
 			path = FaUpIn01MyAssets;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DB48152BD69E0800A5D9E4 /* NavigationBarWithButton.swift in Sources */,
 				D8B59C742BD5562900A95284 /* ContentView.swift in Sources */,
 				D8B59C722BD5562900A95284 /* FaUpIn01MyAssetsApp.swift in Sources */,
 			);
