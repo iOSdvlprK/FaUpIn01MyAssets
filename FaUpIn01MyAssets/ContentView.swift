@@ -47,6 +47,13 @@ struct ContentView: View {
                 }
                 .tag(Tab.setting)
         }
+        .onAppear {
+            let appearance = UITabBarAppearance()
+            appearance.configureWithTransparentBackground()
+            appearance.backgroundColor = UIColor(white: 1, alpha: 0.5)
+            UITabBar.appearance().standardAppearance = appearance
+            UITabBar.appearance().scrollEdgeAppearance = appearance
+        }
     }
 }
 
